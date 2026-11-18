@@ -3,9 +3,25 @@
 <?= $this->section('content') ?>
 <h2>Data Mahasiswa</h2>
 <table>
-    <tr><th>NIM</th><th>Nama</th><th>Program Studi</th></tr>
-    <tr><td>23001</td><td>Andi</td><td>Sistem Informasi</td></tr>
-    <tr><td>23002</td><td>Budi</td><td>Sistem Informasi</td></tr>
-    <tr><td>23003</td><td>Citra</td><td>Manajemen Informatika</td></tr>
+    <tr>
+        <th>NIM</th>
+        <th>Nama</th>
+        <th>Program Studi</th>
+    </tr>
+    <tr>
+        <td>202457201026</td>
+        <td>Ismatul Hani'ah</td>
+        <td>Sistem Informasi</td>
+    </tr>
+    <tr>
+        <td>202457201067</td>
+        <td>Talitha Intan Kirana</td>
+        <td>Sistem Informasi</td>
+    </tr>
+    <tr>
+        <td>202457201069</td>
+        <td>Fatimatuz Zahro'</td>
+        <td>Sistem Informasi</td>
+    </tr>
 </table>
 <?= $this->endSection() ?>

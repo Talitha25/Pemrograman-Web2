@@ -11,3 +11,8 @@ $routes->get('/mahasiswa', 'Home::mahasiswa');
 $routes->get('/dosen', 'Home::dosen');
 $routes->get('/mata-kuliah', 'Home::matakuliah');
 $routes->get('/tentang', 'Home::tentang');
+
+$routes->get('mahasiswa', 'Mahasiswa::index');
+$routes->get('mahasiswa', 'Mahasiswa::index');
+$routes->get('dosen', 'Dosen::index');
+$routes->get('matakuliah', 'Matakuliah::index');

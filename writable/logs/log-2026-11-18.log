@@ -1,0 +1,35 @@
+CRITICAL - 2026-11-18 08:00:22 --> ArgumentCountError: Too few arguments to function App\Models\MahasiswaModel::getByProdi(), 0 passed in C:\laragon\www\Pemrograman Web 2\ci4\app\Controllers\Mahasiswa.php on line 14 and exactly 1 expected
+[Method: GET, Route: mahasiswa]
+in APPPATH\Models\MahasiswaModel.php on line 24.
+ 1 APPPATH\Controllers\Mahasiswa.php(14): App\Models\MahasiswaModel->getByProdi()
+ 2 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\Mahasiswa->index()
+ 3 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Pemrograman Web 2\\ci4\\public\\index.php')
+CRITICAL - 2026-11-18 08:00:56 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: mahasiswa]
+in APPPATH\Models\MahasiswaModel.php on line 28.
+ 1 APPPATH\Models\MahasiswaModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\laragon\\www\\Pemrograman Web 2\\ci4\\app\\Models\\MahasiswaModel.php', 28)
+ 2 APPPATH\Controllers\Mahasiswa.php(14): App\Models\MahasiswaModel->getByProdi()
+ 3 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Pemrograman Web 2\\ci4\\public\\index.php')
+CRITICAL - 2026-11-18 08:01:38 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: mahasiswa]
+in APPPATH\Models\MahasiswaModel.php on line 28.
+ 1 APPPATH\Models\MahasiswaModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\laragon\\www\\Pemrograman Web 2\\ci4\\app\\Models\\MahasiswaModel.php', 28)
+ 2 APPPATH\Controllers\Mahasiswa.php(14): App\Models\MahasiswaModel->getByProdi()
+ 3 SYSTEMPATH\CodeIgniter.php(972): App\Controllers\Mahasiswa->index()
+ 4 SYSTEMPATH\CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Pemrograman Web 2\\ci4\\public\\index.php')
