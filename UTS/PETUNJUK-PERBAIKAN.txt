@@ -1,0 +1,38 @@
+PERBAIKAN PROYEK UTS CI4
+
+File ini adalah proyek yang sudah diperbaiki berdasarkan ZIP proyek yang dikirim.
+
+PERBAIKAN YANG DILAKUKAN
+1. Nama file controller diseragamkan menjadi Portfolio.php sesuai nama class Portfolio.
+2. Controller sekarang memanggil halaman dari app/Views/halaman/.
+3. Layout tetap berada di app/Views/portofolio/layout.php.
+4. Route /beranda ditambahkan sebagai alamat alternatif untuk halaman Beranda.
+5. Data portofolio diperbaiki: halaman Portofolio menggunakan array $proyek, bukan $artikel.
+6. Link CSS diperbaiki sesuai lokasi file public/aset/portofolio.css.
+7. PHPDoc variabel layout ditempatkan di file layout.php, bukan di Routes.php.
+8. Route yang tersedia: /, /beranda, /profil, /artikel, /portofolio, /tentang.
+
+CARA MENGGUNAKAN
+1. Buat salinan/backup folder proyek lama terlebih dahulu.
+2. Ekstrak ZIP ini.
+3. Gunakan folder "uts ci4" sebagai proyek hasil perbaikan, atau salin file-file yang diperbarui ke proyek lama dengan struktur folder yang sama.
+4. Pastikan file .env memiliki baseURL yang sesuai, misalnya:
+   app.baseURL = 'http://localhost:8080/'
+5. Buka terminal pada folder utama proyek (folder yang berisi file spark).
+6. Jalankan:
+   php spark serve --host 127.0.0.1 --port 8080
+7. Buka:
+   http://localhost:8080/
+
+DAFTAR HALAMAN
+- http://localhost:8080/
+- http://localhost:8080/beranda
+- http://localhost:8080/profil
+- http://localhost:8080/artikel
+- http://localhost:8080/portofolio
+- http://localhost:8080/tentang
+
+CATATAN
+- Folder .git dan file proyek lain dipertahankan dari arsip yang dikirim.
+- Jangan membagikan file .env ke publik karena dapat berisi konfigurasi rahasia.
+- Nama, kampus, dan proyek adalah data yang perlu diperiksa kembali sebelum dikumpulkan.

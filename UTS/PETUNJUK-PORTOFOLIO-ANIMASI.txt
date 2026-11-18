@@ -1,0 +1,29 @@
+PANDUAN PORTOFOLIO CI4 - VERSI ANIMASI
+
+1. Ekstrak ZIP ke folder:
+   C:\laragon\www\Pemrograman Web 2\uts ci4
+   (atau folder proyek CI4 yang kamu gunakan).
+
+2. Buka folder proyek di VS Code. Pastikan terminal berada di folder yang berisi file spark.
+
+3. Jalankan:
+   php spark serve --host 127.0.0.1 --port 8080
+
+4. Buka:
+   http://localhost:8080/
+
+Halaman:
+- / atau /beranda
+- /profil
+- /artikel
+- /portofolio
+- /tentang
+
+Fitur visual:
+- Foto profil ilustrasi sementara di public/aset/foto-profil-ilustrasi.jpg
+- Animasi foto melayang, kartu mengambang, efek hover, skill bar, dan reveal saat scroll.
+- Navigasi responsif untuk layar HP.
+- Animasi otomatis dikurangi jika pengunjung mengaktifkan Reduce Motion di perangkat.
+
+Catatan:
+Foto profil adalah ilustrasi sementara, bukan foto asli. Ganti file foto-profil-ilustrasi.jpg jika ingin menggunakan foto sendiri.
